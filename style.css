@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    background-color: rgb(241, 202, 8);
+}
+.heading{
+
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    
+
+}
+.list {
+        margin: auto;
+        padding: auto;
+        width:50%;
+        margin-left: 450px;
+        
+}
+
+
+.box1{
+    display: inline-block;
+
+    background-color: rgb(232, 10, 10);
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    margin-bottom: 10%;
+    animation-name:first;
+    animation-duration: 3s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite;
+
+
+
+}
+@keyframes first{
+    0%{
+        transform: skewX(0);
+    }
+    50%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+}
+}
+
+.box2{
+
+    display: inline-block;
+
+    background-color: rgb(58, 18, 220);
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    margin-bottom: 10%;
+    animation-name:second;
+    animation-duration: 3s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite;
+
+}
+@keyframes second{
+    0%{
+        transform: skewY(0);
+    }
+    50%{
+        transform: skewY(20deg);
+    }
+    100%{
+        transform: skewY(-20deg);
+    }
+}
+
+
+
+
+
+
+
+.box3{
+
+    display: inline-block;
+    background-color: rgb(17, 16, 16);
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    margin-bottom: 10%;
+    animation-name: boxc;
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+
+
+}
+@keyframes boxc {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+.box4{
+    display: inline-block;
+
+    background-color: rgb(19, 201, 230);
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+   
+}
+.a4{
+    animation-name: boxd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxd{
+    0%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1.20);
+    }
+}
+
+.b4{
+    animation-name: boxk;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxk{
+    0%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1.20);
+    }
+}
+
+.c4{
+    animation-name: boxr;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxr{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-180deg);
+    }
+}
